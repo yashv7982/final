@@ -1,0 +1,34 @@
+.sr-hd{
+    font-size: 120px;
+
+}
+.plus-img{
+    opacity: 60%;
+
+}
+.service{background-image: url(img/sr-img.jpg);
+    background-size: cover;
+
+}
+
+.cardss{
+    border-end-end-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    transition: 0.9s;
+    
+}
+
+.cardss:hover{
+    background-color: aqua;
+    color: rgb(70, 75, 77);
+}
+
+@media  (max-width: 767px) {
+    .sr-hd{
+        font-size: 50px;
+    }
+    .plus-img{
+        display: none;
+    }
+}
